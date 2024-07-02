@@ -16,5 +16,5 @@ function solution(n) {
 }
 
 /**function solution(n){
- * n.toString().split('').reverse().map(Number)
+ * return n.toString().split('').reverse().map(Number)
 } */
