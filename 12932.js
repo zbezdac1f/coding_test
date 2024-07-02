@@ -14,3 +14,7 @@ function solution(n) {
     return result;
 
 }
+
+/**function solution(n){
+ * n.toString().split('').reverse().map(Number)
+} */
