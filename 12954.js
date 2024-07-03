@@ -13,3 +13,5 @@ function solution(n) {
     }
     return answer;
 }
+
+answer.sort((a,b)=>a-b) ; 오름차운
