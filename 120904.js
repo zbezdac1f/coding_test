@@ -9,10 +9,8 @@ function solution(num, k) {
     const numString = num.toString();
     const kString = k.toString();
     const idx = numString.indexOf(kString);
-    return idx !== -1 ? idx + 1: - 1 ; 
-    let answer = 0;
-    return answer;
+    return idx !== -1 ? idx + 1 : - 1;
 }
 ;
-console.log(solution(777731,6));
-console.log(solution(123456,3));
+console.log(solution(777731, 6));
+console.log(solution(123456, 3));
