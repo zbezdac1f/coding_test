@@ -17,3 +17,13 @@ function solution(s) {
         }
     }).join('');
 }
+
+
+function solution(s){
+    let a= s.split('')
+    return s.sort((a,b)=>{
+        if(a<b) return -1
+        if(a>b) return 1
+        else 0;
+    })
+}
